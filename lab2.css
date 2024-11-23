@@ -1,36 +1,49 @@
-/* Basic Reset Boom*/
+/* Basic Reset Boom */
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- border: 2px whitesmoke;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px whitesmoke;
 }
+
 head {
-	font-family:'baskerville' serif;
+  font-family: 'Baskerville', serif;
 }
+
 body {
- font-family: 'baskerville', serif;
- line-height: 1.6;
- padding: 20px;
- background-color: #f9e9e6;
+  font-family: 'Baskerville', serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9e9e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
+
 .header {
- text-align: center;
- margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
+
 .bunny-img {
- width: 400px;
- height: auto;
- border-radius: 60%;
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+  object-fit: cover; 
 }
+
 h1 {
- font-family: 'baskerville', serif;
- margin-top: 10px;
+  font-family: 'Baskerville', serif;
+  margin-top: 10px;
 }
 
 a {
- color: #333;
- text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
+
 a:hover {
- text-decoration: underline;
+  text-decoration: underline;
+}
