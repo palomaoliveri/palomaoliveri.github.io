@@ -1,0 +1,36 @@
+/* Basic Reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ border: 2px whitesmoke;
+}
+head {
+	font-family:'baskerville' serif;
+}
+body {
+ font-family: 'baskerville', serif;
+ line-height: 1.6;
+ padding: 20px;
+ background-color: #f9e9e6;
+}
+.header {
+ text-align: center;
+ margin-bottom: 20px;
+}
+.bunny-img {
+ width: 400px;
+ height: auto;
+ border-radius: 60%;
+}
+h1 {
+ font-family: 'baskerville', serif;
+ margin-top: 10px;
+}
+
+a {
+ color: #333;
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: underline;
